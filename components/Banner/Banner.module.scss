@@ -1,0 +1,16 @@
+.banner {
+  height: 500px;
+  object-fit: contain;
+  &__content {
+    height:100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__overview{
+      margin: 2rem 0;
+      max-width: 60rem;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import '/styles/assets/variables';
+
+.detail {
+  &__content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 3rem;
+
+    &__title {
+      margin-bottom: 0.5rem;
+    }
+
+    &__genres {
+      display: flex;
+      margin: 0.5rem 0 2rem 0;
+      flex-wrap: wrap;
+      margin-top: -1rem;
+    }
+
+    &__genre {
+      background-color: #e0e0e0;
+      color: $color-bg;
+      font-size: 1.3rem;
+      padding: 0.3rem 1rem;
+      margin-top: 1rem;
+      border-radius: 15px;
+
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+
+    &__overview {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.error {
+  padding: 3rem;
+  text-align: center;
+}

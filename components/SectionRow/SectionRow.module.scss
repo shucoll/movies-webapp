@@ -1,0 +1,48 @@
+.section {
+  margin: 1rem 2rem 0 2rem;
+  position: relative;
+
+  &__container {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 2rem 1rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__arrow {
+    fill: #fff;
+    position: absolute;
+    z-index: 200;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(160, 160, 160, 0.267);
+    transition: all 0.4s;
+    padding: 1.3rem;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: rgba(160, 160, 160, 0.493);
+    }
+
+    &_left {
+      left: 1.2rem;
+      transform: rotate(180deg);
+    }
+
+    &_right {
+      right: 2rem;
+    }
+
+    &__icon {
+      width: 1.1rem;
+    }
+  }
+}
