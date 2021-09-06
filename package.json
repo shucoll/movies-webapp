@@ -1,7 +1,8 @@
 {
-  "name": "ggi-assignment-ott-app",
+  "name": "movies-webapp",
   "version": "0.1.0",
   "private": true,
+  "author": "Shuvam Shiwakoti",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
